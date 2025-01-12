@@ -9,7 +9,7 @@
         "email": "support@intune-cloud.fr",
         "url": "https://github.com/ARMKatsuki"
     },
-    "url": "https://launcher.chronosia-hosting.fr",
+    "url": "https://launcher.chronosia-hosting.fr/launch",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
