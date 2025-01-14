@@ -30,7 +30,11 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Bienvenue sur Chronosia Universe", "author": "Chronosia" }
+            { "message": "Bienvenue sur Chrono Universe", "author": "Chronosia" },
+            { "message": "Ce n'est pas que du code, mais une passion", "author": "Katsuki" },
+            { "message": "Rejoint nous sur discord !", "author": "Chronosia" },
+            { "message": "Si nous voulons avancer nous avons besoin de vous...", "author": "Katsuki" }
+            
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;

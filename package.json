@@ -1,7 +1,7 @@
 {
     "name": "chronosia-launcher",
     "preductname": "Chronosia Launcher",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Launcher Minecraft pour le serveur Chronosia",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/ARMKatsuki/Icons/refs/heads/main/icons8-minecraft-512.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/ARMKatsuki/Icons/refs/heads/main/clipart2098816.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
