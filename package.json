@@ -1,7 +1,7 @@
 {
     "name": "chronosia-launcher",
     "preductname": "Chronosia Launcher",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Launcher Minecraft pour le serveur Chronosia",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "support@intune-cloud.fr",
         "url": "https://github.com/ARMKatsuki"
     },
-    "url": "https://genesysbot.fr/launcher",
+    "url": "http://genesysbot.fr/launcher",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
